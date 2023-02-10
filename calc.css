@@ -1,0 +1,96 @@
+body {
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+.screen {
+  background-color: gray;
+  border-color: solid black 2px;
+  color: white;
+  font-size: medium;
+  width: 100%;
+  cursor: default;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+input[type="button"]:hover {
+  background-color: whitesmoke;
+}
+
+input[type="button"]:active {
+  background-color: skyblue;
+}
+
+.oprator {
+  background-color: rgb(97, 158, 143);
+  padding: 5px;
+  color: black;
+  border: solid black 2px;
+  width: 100%;
+  height: 40%;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.number {
+  padding: 5px;
+  height: 40%;
+  color: black;
+  border: solid black 2px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.decimal {
+  background-color: rgb(122, 186, 228);
+  padding: 5px;
+  color: black;
+  border: solid black 2px;
+  width: 100%;
+  height: 40%;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.equal {
+  background-color: rgb(148, 202, 87);
+  padding: 5px;
+  color: black;
+  border: solid black 2px;
+  width: 100%;
+  height: 40%;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.clear {
+  background-color: rgb(151, 191, 229);
+  padding: 10px;
+  color: black;
+  border: solid black 2px;
+  width: 100%;
+  height: 40%;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+.container {
+  background-color: white;
+  padding: 15px;
+  color: black;
+  border: solid black 2px;
+  width: 40%;
+  margin: 100px auto;
+  border-radius: 6px;
+  display: block;
+  align-self: center;
+  box-shadow: 5px 10px 20px black;
+}
+table {
+  width: 100%;
+}
